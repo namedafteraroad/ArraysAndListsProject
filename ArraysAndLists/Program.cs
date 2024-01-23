@@ -44,6 +44,14 @@ namespace ArraysAndLists
 
 
             }
+            //foreach (int num in numbers)
+            //{
+            //  if(num % 2 ==0)
+            //  {evens.add(num)}
+            //  else
+            //  {odds.Add(num) }
+
+            //}
 
 
             /* Using a foreach loop,
@@ -53,18 +61,18 @@ namespace ArraysAndLists
             {
                 Console.WriteLine(even);
             }
+
+            //for each (int num in evens)
             /* Using a for loop,
          * display the numbers in your "odds" list
          */
-            for (int i = 0; i <= 9; i++)
+            for (int i = 0; i <= odds.Count; i++)
             {
-                if (myArray1[i] % 2 == 0)
-                {
-                    Console.WriteLine(i);
-                }
+                Console.WriteLine(odds[i]);
 
             }
-
+            //for(int i = 0; i < odds.Count; i++
+            //{cw(odds.[i]}
 
             /* Using a foreach loop,
              * display the numbers in your "evens" list
