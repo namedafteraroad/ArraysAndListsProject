@@ -66,7 +66,7 @@ namespace ArraysAndLists
             /* Using a for loop,
          * display the numbers in your "odds" list
          */
-            for (int i = 0; i <= odds.Count; i++)
+            for (int i = 0; i <= odds.Count - 1; i++)
             {
                 Console.WriteLine(odds[i]);
 
